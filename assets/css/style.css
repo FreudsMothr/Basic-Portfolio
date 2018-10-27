@@ -3,6 +3,7 @@ body {
     background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/subtle_white_mini_waves.png");
     margin: 0;
     
+    
 }
 
 
@@ -113,14 +114,22 @@ img {
         padding: 5px;
     }
 
-    .brightness {
+    .grid-item {
         background-color: white;
         display: inline-block;
+        text-align: center;
+        float: left;
     
     }
-    .brightness img:hover {
+    .grid.item img:hover {
         opacity: .5;
     }
 
-
-    
+    .caption {
+        float: left;
+        position: relative;
+        bottom: 50;
+        left: -20;
+        background-color: azure;
+        width: 100%;}
+        
